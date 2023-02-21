@@ -1,0 +1,12 @@
+1. 创建一个动态Web项目(JavaWeb项目)，并且在项目中创建一个index.html文件
+   部署项目，访问index.html文件
+   
+2. 在项目中创建一个Servlet（直接使用idea创建Servlet）,并且使用web.xml配置Servlet的映射路径，该Servlet在接收到请求之后
+   要打印语句"Servlet接收到请求了..."，然后向浏览器响应一句"hello world..."
+   然后部署，然后直接使用浏览器访问Servlet(写url访问)
+   
+3. 在index.html中创建一个a标签，我们的目标是点击a标签访问第二步创建的那个Servlet
+   方式1: 使用相对路径
+   方式2: 使用绝对路径(必须完成)
+   
+4. 使用ServletContext对象作为域对象在俩Servlet中进行数据共享
